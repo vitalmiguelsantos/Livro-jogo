@@ -1,0 +1,44 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15pt;
+    color:#11cd0e;
+    display: grid;
+    place-items: center;
+}
+body,html{
+    height: 100%;
+    margin: 0px;
+}
+
+.bg{
+    background-image: url("https://i.pinimg.com/originals/1d/13/f0/1d13f09a18a2de0a4abb72704c0c50b2.gif");
+}
+
+  .img_container{
+    width: 50vw;
+    height: 50vh;
+    transform: translateY(-25%);
+  }
+
+.img_container img{
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+
+  .button{
+align-items: center;
+display: flex;
+justify-content: space-around;
+column-gap: 45%;
+position: absolute;
+top: 50%;
+width: 100%;
+height: 40vh;
+transform: translateY(-50%);
+  }
+
+  .button button{
+    width: 20%;
+    height: 70%;
+  }
